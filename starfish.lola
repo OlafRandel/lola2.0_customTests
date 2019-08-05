@@ -1,0 +1,9 @@
+PLACE
+    idle.0, idle.1, idle.2, idle.3;
+
+MARKING
+    idle.0: 1, idle.1: 0, idle.2: 1, idle.3: 0;
+
+TRANSITION g0.0
+    CONSUME idle.0: 1, idle.1: 1, idle.2: 1, idle.3: 1;
+    PRODUCE idle.0: 1, idle.1: 1, idle.2: 1, idle.3: 1;

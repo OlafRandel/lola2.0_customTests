@@ -1,0 +1,1 @@
+IMPOSSIBLE (idle.0 = 1 AND idle.1 = 1) OR (idle.0 = 1 AND idle.2 = 1) OR (idle.0 = 1 AND idle.3 = 1) OR (idle.3 = 1 AND idle.4 = 1)
